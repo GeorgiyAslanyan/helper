@@ -38,10 +38,15 @@ const modelsArr = [
     img: "/iframe/wire.png",
     link: "https://iframe-lib.vercel.app/wire",
   },
+  {
+    name: "Animated person",
+    img: "/iframe/animated.png",
+    link: "https://iframe-lib.vercel.app/animated",
+  },
 ];
 
 const App = () => {
-  const [model, setModel] = useState(5);
+  const [model, setModel] = useState(7);
 
   return (
     <div className="grid grid-cols-2 h-full gap-3 p-5">
